@@ -7,19 +7,19 @@ app.get('/', (req, res) => {
 })
 
 app.post('/', (req, res) => {
-    res.send("app POST, testando - POST")
+    res.send("app POST, testando no POST")
 })
 
 app.put('/', (req, res) => {
-    res.send("app PUT, testando rota - PUT")
+    res.send("app PUT, testando rota no PUT")
 })
 
 app.delete('/', (req, res) => {
-    res.send("app DELETE, testando rota -  DELETE")
+    res.send("app DELETE, testando rota no  DELETE")
 })
 
 app.path('/', (req, res) => {
-    res,send("app PATH, testando rora -  PATH")
+    res,send("app PATH, testando rora no  PATH")
 })
 
 app.listen(PORT, () => {
