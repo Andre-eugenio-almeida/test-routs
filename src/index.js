@@ -3,7 +3,7 @@ const app = express()
 const PORT = 3000
 
 app.get('/', (req, res) => {
-    res.send("app GET, testando rota - GET")
+    res.send("app GET, testando rota no GET")
 })
 
 app.post('/', (req, res) => {
