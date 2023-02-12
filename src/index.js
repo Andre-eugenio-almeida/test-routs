@@ -3,23 +3,23 @@ const app = express()
 const PORT = 3000
 
 app.get('/', (req, res) => {
-    res.send("app GET, testando rota com  GET")
+    res.send("app GET, testando rota - GET")
 })
 
 app.post('/', (req, res) => {
-    res.send("app POST, testando rota com POST")
+    res.send("app POST, testando - POST")
 })
 
 app.put('/', (req, res) => {
-    res.send("app PUT, testando rota com PUT")
+    res.send("app PUT, testando rota - PUT")
 })
 
 app.delete('/', (req, res) => {
-    res.send("app DELETE, testando rota com DELETE")
+    res.send("app DELETE, testando rota -  DELETE")
 })
 
 app.path('/', (req, res) => {
-    res,send("app PATH, testando rora com PATH")
+    res,send("app PATH, testando rora -  PATH")
 })
 
 app.listen(PORT, () => {
